@@ -1,24 +1,24 @@
 # Flan Swap UIkit
 
-**This repository is not used anymore. See the [https://github.com/FlanSwap/FlanSwap-toolkit](FlanSwap toolkit) instead**
+**This repository is not used anymore. See the [https://github.com/flokishiba/flokishiba-toolkit](flokishiba toolkit) instead**
 
-[![Version](https://img.shields.io/npm/v/flanswap-libs-uikit)](https://www.npmjs.com/package/flanswap-libs-uikit) [![Size](https://img.shields.io/bundlephobia/min/flanswap-libs-uikit)](https://www.npmjs.com/package/flanswap-libs-uikit)
+[![Version](https://img.shields.io/npm/v/flokishiba-libs-uikit)](https://www.npmjs.com/package/flokishiba-libs-uikit) [![Size](https://img.shields.io/bundlephobia/min/flokishiba-libs-uikit)](https://www.npmjs.com/package/flokishiba-libs-uikit)
 
-FlanSwap UIkit is a set of React components and hooks used to build pages on FlanSwap's apps. It also contains a theme file for dark and light mode.
+flokishiba UIkit is a set of React components and hooks used to build pages on flokishiba's apps. It also contains a theme file for dark and light mode.
 
-## Install 
+## Install
 
-`yarn add flanswap-libs-uikit`
+`yarn add flokishiba-libs-uikit`
 
 ## Setup
 
 ### Theme
 
-Before using FlanSwap UIkit, you need to provide the theme file to styled-component.
+Before using flokishiba UIkit, you need to provide the theme file to styled-component.
 
 ```
 import { ThemeProvider } from 'styled-components'
-import { light, dark } from 'flanswap-libs-uikit'
+import { light, dark } from 'flokishiba-libs-uikit'
 ...
 <ThemeProvider theme={isDark}>...</ThemeProvider>
 ```
@@ -28,7 +28,7 @@ import { light, dark } from 'flanswap-libs-uikit'
 A reset CSS is available as a global styled component.
 
 ```
-import { ResetCSS } from 'flanswap-libs-uikit'
+import { ResetCSS } from 'flokishiba-libs-uikit'
 ...
 <ResetCSS />
 ```

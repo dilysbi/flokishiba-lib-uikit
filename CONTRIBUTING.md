@@ -1,7 +1,7 @@
-# Contributing to the Flanswap
+# Contributing to the flokishiba
 
 Thanks for taking the time to contribute !
-You can start by reading our [Contribution guidelines](https://docs.flanswap.finance/code/contributing) first.
+You can start by reading our [Contribution guidelines](https://docs.flokishiba.finance/code/contributing) first.
 
 ## Setup
 

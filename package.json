@@ -1,14 +1,14 @@
 {
-  "name": "flanswap-libs-uikit",
-  "version": "0.0.3",
-  "description": "Set of UI components for flanswap projects",
+  "name": "flokishiba-libs-uikit",
+  "version": "0.0.2",
+  "description": "Set of UI components for flokishiba projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/dilysbi/flanswap-libs-uikit.git",
+  "repository": "",
   "license": "MIT",
   "scripts": {
     "build:mac": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
