@@ -57,17 +57,27 @@ const Logo: React.FC<Props> = ({ isMobile, isPushed, togglePush, isDark, href })
   const innerLogo = (
     <BoxImage isMobile={isMobile}>
       {!isMobile ? (
+        // <img className="desktop-icon" src={logoTextPng} alt="logo"/>
         <img className="desktop-icon" src="/images/logo/logo-full.svg" alt="logo" />
       ) : (
-        // <img className="desktop-icon" src={logoTextPng} alt="logo"/>
-        <img className="mobile-icon" src="/images/logo/logo.png" alt="logo" />
         // <img className="mobile-icon"  src={logoPng} alt="logo"/>
+        <img className="mobile-icon" src="/images/logo/logo.png" alt="logo" />
       )}
     </BoxImage>
   )
 
   return (
     <Flex>
+      {/* Icon collapse siderbar menu */}
+      <MenuButton aria-label="Toggle menu" onClick={togglePush} mr="2px">
+        {isPushed ? (
+          <HamburgerCloseIcon width="24px" color="textSubtle" />
+        ) : (
+          <HamburgerIcon width="24px" color="textSubtle" />
+        )}
+      </MenuButton>
+
+      {/* Logo */}
       {isAbsoluteUrl ? (
         <StyledLink as="a" href={href} aria-label="Home page">
           {innerLogo}
